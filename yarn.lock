@@ -1000,6 +1000,11 @@
   resolved "https://registry.yarnpkg.com/@sinonjs/text-encoding/-/text-encoding-0.7.2.tgz#5981a8db18b56ba38ef0efb7d995b12aa7b51918"
   integrity sha512-sXXKG+uL9IrKqViTtao2Ws6dy0znu9sOaP1di/jKGW1M6VssO8vlpXCQcpZ+jisQ1tTFAC5Jo/EOzFbggBagFQ==
 
+"@tgwf/co2@^0.13.7":
+  version "0.13.7"
+  resolved "https://registry.yarnpkg.com/@tgwf/co2/-/co2-0.13.7.tgz#9d1acc640c0b8973830ba5e4ce873037add0da79"
+  integrity sha512-yIgbuQmQEgry/X7SFL8iHGU3C/B/6NqPfvrxG7VETx6U1p5O5i6YI5cxF0lIXV5AXlTpMFanvbm37nEbfZ9iNQ==
+
 "@tootallnate/once@2":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@tootallnate/once/-/once-2.0.0.tgz#f544a148d3ab35801c1f633a7441fd87c2e484bf"

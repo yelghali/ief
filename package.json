@@ -20,8 +20,9 @@
     "ts-command-line-args"
   ],
   "dependencies": {
-    "@cloud-carbon-footprint/core": "*",
     "@cloud-carbon-footprint/aws": "*",
+    "@cloud-carbon-footprint/core": "*",
+    "@tgwf/co2": "^0.13.7",
     "@types/node": "^20.4.5",
     "axios": "^1.4.0",
     "dayjs": "^1.11.9",

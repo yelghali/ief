@@ -10,6 +10,7 @@ export const CONFIG = {
     ESHOPPEN_NET: 'org.gsf.eshoppen-net',
     SCI_ACCENTURE: 'org.gsf.sci-o',
     CCF: 'ccf.cloud.sci',
+    CO2JS: 'org.gsf.co2js',
     SCI: 'org.gsf.sci',
     SCI_E: 'sci-e',
     SCI_M: 'org.gsf.sci-m',
