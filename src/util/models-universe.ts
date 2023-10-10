@@ -16,6 +16,7 @@ import {
   SciAccentureModel,
   EAvevaModel,
   SciEModel,
+  TdpFinderModel,
 } from '../lib';
 
 import {
@@ -71,6 +72,8 @@ export class ModelsUniverse {
         return EMemModel;
       case 'aveva':
         return EAvevaModel;
+      case 'tdp-finder':
+        return TdpFinderModel;
       default:
         throw new Error(`Missing or wrong model: ${name}.`);
     }
@@ -109,7 +112,7 @@ export class ModelsUniverse {
    * Initializes and registers model.
    */
   public writeDown(model: ImplInitializeModel) {
-    const {name, kind, config} = model;
+    const { name, kind, config } = model;
 
     const Model = this.handModelByCriteria(name, kind);
 
